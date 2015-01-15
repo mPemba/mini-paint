@@ -23,6 +23,7 @@ $(document).ready(function() {
 	});
 
 	$('.box').on('click', function() {
+		$(this).removeClass(colors);
 		$(this).addClass(color);
 	});
 
